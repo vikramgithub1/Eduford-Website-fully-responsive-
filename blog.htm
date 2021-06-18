@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/style/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- ---- header section ---- -->
+
+    <section class="sub-header">
+        <nav>
+            <!-- create logo in left side -->
+            <a href="index.htm"><img src="/images/logo.png" alt="images" srcset=""></a>
+
+            <!-- create menu -->
+
+            <div class="nav-links" id="navLinks">
+                <!-- add closeing icon  -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                         <li><a href="index.htm">Home</a></li>
+                         <li><a href="course.htm">Course</a></li>
+                         <li><a href="about.htm">About</a></li>
+                         <li><a href="blog.htm">Blog</a></li>
+                         <li><a href="contact.htm">Contact</a></li>
+
+
+                </ul>
+            </div>
+
+            <!-- add nav icon drawer menu for phone -->
+            <i class="fa fa-bars" onclick="hideMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Program For 2021</h1>
+
+
+
+    </section>
+
+
+  <!-- ---- blog page content section ---- -->
+  
+  <section class="blog-content">
+      <div class="row">
+          <div class="blog-left">
+              <img src="/images/certificate.jpg" alt="">
+              <h2>Our Certificate & Online Program For 2021</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, iusto.
+              Doloremque voluptatem possimus praesentium officia sed, in dolores corrupti distinctio.
+              Iste, inventore doloremque ad dignissimos nulla vel blanditiis! Dolores, sit.
+              Dolores qui non magni sit sed dolorum porro facilis molestias.
+              Sapiente consequatur nemo ipsam molestiae, corporis quae velit cumque autem?
+              Blanditiis alias laborum magnam? Quam enim odio corrupti perferendis laudantium!</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quod!
+              Sequi, quae similique. Velit iure nesciunt rem. Dolore, consectetur provident.
+              Esse explicabo provident consectetur nostrum ducimus facilis iure architecto doloremque.
+              Alias quibusdam magni, excepturi modi incidunt quas reprehenderit. Nostrum, molestias!
+              Ratione repellendus nesciunt minima reiciendis vitae laboriosam, deserunt unde aliquam.
+              Voluptates soluta et fugit cupiditate velit laborum quae vel praesentium.</p>
+              <br>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, iusto.
+                         Doloremque voluptatem possimus praesentium officia sed, in dolores corrupti distinctio.
+                         Iste, inventore doloremque ad dignissimos nulla vel blanditiis! Dolores, sit.
+                         Dolores qui non magni sit sed dolorum porro facilis molestias.
+                         Sapiente consequatur nemo ipsam molestiae, corporis quae velit cumque autem?
+                         Blanditiis alias laborum magnam? Quam enim odio corrupti perferendis laudantium!</p>
+                     <br>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quod!
+                         Sequi, quae similique. Velit iure nesciunt rem. Dolore, consectetur provident.
+                         Esse explicabo provident consectetur nostrum ducimus facilis iure architecto doloremque.
+                         Alias quibusdam magni, excepturi modi incidunt quas reprehenderit. Nostrum, molestias!
+                         Ratione repellendus nesciunt minima reiciendis vitae laboriosam, deserunt unde aliquam.
+                         Voluptates soluta et fugit cupiditate velit laborum quae vel praesentium.</p>
+
+                         <div class="comment-box">
+                             <h3>Leave a comment</h3>
+
+                             <form action="" class="comment-form">
+                                 <input type="text" name="" id="" placeholder="Enter Name">
+                                 <input type="email" name="" id="" placeholder="Enter Email">
+                                 <textarea name="" id="" cols="" rows="5" placeholder="Your comment"></textarea>
+                                 <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                             </form>
+                         </div>
+
+          </div>
+
+          <div class="blog-right">
+              <h3>Post Categories</h3>
+          <div>
+              <span>Business Analytics</span>
+              <span>21</span>
+          </div>
+
+           <div>
+               <span>Machine Learnign</span>
+               <span>28</span>
+           </div>
+
+            <div>
+                <span>Data Science</span>
+                <span>20</span>
+            </div>
+
+             <div>
+                 <span>Python</span>
+                 <span>25</span>
+             </div>
+
+
+          </div>
+      </div>
+  </section>
+
+
+
+    <!-- ---- footer ---- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates earum esse quas ipsam odio ipsa . <br>
+            Eaque officiis quibusdam in deleniti nam facilis unde.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+
+         <p> Copyright &copy; 2021 Developed <i class="fa fa-heart-o"></i> by Vikram Ziox </p>
+
+    </section>
+
+
+
+
+
+    <script>
+        // js for toggle menu
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

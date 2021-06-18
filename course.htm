@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="/style/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- ---- header section ---- -->
+
+    <section class="sub-header">
+        <nav>
+            <!-- create logo in left side -->
+            <a href="index.htm"><img src="/images/logo.png" alt="images" srcset=""></a>
+
+            <!-- create menu -->
+
+            <div class="nav-links" id="navLinks">
+                <!-- add closeing icon  -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.htm">Home</a></li>
+                    <li><a href="course.htm">Course</a></li>
+                    <li><a href="about.htm">About</a></li>
+                    <li><a href="blog.htm">Blog</a></li>
+                    <li><a href="contact.htm">Contact</a></li>
+
+
+                </ul>
+            </div>
+
+            <!-- add nav icon drawer menu for phone -->
+            <i class="fa fa-bars" onclick="hideMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+
+
+
+    </section>
+
+    <!-- ---- Course page Section ---- -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Et vero ratione odio mollitia non,
+                    Deleniti culpa, tempora vel porro nemo suscipit quod.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Et vero ratione odio mollitia non,
+                    Deleniti culpa, tempora vel porro nemo suscipit quod.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Gratulation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Et vero ratione odio mollitia non,
+                    Deleniti culpa, tempora vel porro nemo suscipit quod.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+        <!-- ---- facilities section ---- -->
+
+        <section class="facilities">
+            <h1> Our facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium!</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="/images/library.jpg" alt="images">
+
+                    <h3>World Class Libray</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur minus molestias!</p>
+
+
+                </div>
+
+                <div class="facilities-col">
+                    <img src="/images/basketball.jpg" alt="images">
+
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur minus molestias!</p>
+
+                </div>
+
+                <div class="facilities-col">
+                    <img src="/images/cafeteria.jpg" alt="images">
+                    <h3>Cafeteria</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur minus molestias!</p>
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+    <!-- ---- footer ---- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates earum esse quas ipsam odio ipsa . <br>
+            Eaque officiis quibusdam in deleniti nam facilis unde.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+
+          <p> Copyright &copy; 2021 Developed <i class="fa fa-heart-o"></i> by Vikram Ziox </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // js for toggle menu
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
